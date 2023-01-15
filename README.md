@@ -1,5 +1,4 @@
-# BabyMonitor
-### Smart car child monitor
+# Smart car child monitor
 
 ## Description
 
@@ -8,19 +7,22 @@ Then, there is a smartphone app which identifies that new message was sent, and 
 The purpose of the system is to prevent child being forgotten in the car.  
 
 ## How to run the code
-Run the following commands in the project directory:  
+Open terminal, get into the project directory and run:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+And close this terminal.  
 
-Then open two terminals, in the first terminal run:
+Then, open one terminal, get into the project directory and run:
 ```bash
-python car_monitor_simulator.py
+source venv/bin/activate
+python3 car_monitor_simulator.py
 ```
 
-And in the second terminal run:
+And open a second terminal, get into the project directory and run:
 ```bash
-python smartphone_app_simulator.py
+source venv/bin/activate
+python3 smartphone_app_simulator.py
 ```
